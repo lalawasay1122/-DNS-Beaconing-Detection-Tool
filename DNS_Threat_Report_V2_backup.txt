@@ -1,0 +1,34 @@
+=======================================================
+       SOC DNS INVESTIGATION REPORT V2
+=======================================================
+Generated: 2026-11-10 21:38:22.203078
+Analyst: Lalawasay
+Environment: Controlled Training Lab
+Evidence: dns_multi.pcapng
+
+Total DNS queries: 3
+Unique domains: 3
+Unique source IPs: 1
+
+----- DOMAIN ANALYSIS -----
+
+Domain: example.com
+Query count: 1
+[INFO] No configured indicator triggered
+
+Domain: google.com
+Query count: 1
+[INFO] No configured indicator triggered
+
+Domain: updates.example.net
+Query count: 1
+[INFO] No configured indicator triggered
+
+----- SOURCE IP ANALYSIS -----
+192.168.100.129: 3 queries
+
+----- INVESTIGATION SUMMARY -----
+Review indicators are not proof of malicious activity.
+Further context and traffic correlation are required.
+
+Investigation completed.

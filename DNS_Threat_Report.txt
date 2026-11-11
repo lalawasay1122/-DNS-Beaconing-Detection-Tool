@@ -1,0 +1,26 @@
+=======================================================
+       SOC DNS INVESTIGATION REPORT
+=======================================================
+Generated: 2026-11-10 21:35:02.638835
+Analyst: Lalawasay
+Environment: Controlled Training Lab
+PCAP Evidence: dns_multi.pcapng
+
+Total DNS queries: 3
+Unique domains: 3
+
+----- DOMAIN ANALYSIS -----
+Domain: example.com
+Query count: 1
+
+Domain: google.com
+Query count: 1
+
+Domain: updates.example.net
+Query count: 1
+
+----- INVESTIGATION SUMMARY -----
+No confirmed malicious activity from this sample.
+Length and frequency indicators require further review.
+
+Investigation completed.
